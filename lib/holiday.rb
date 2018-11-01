@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
           test.collect do |x|
               x.capitalize!
           end
-          puts "  #{test.join(" ")}"
+          puts "  #{test.join(" ")}: #{values}"
       end
   end
   return holiday_hash
